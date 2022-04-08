@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { StoriesRoutingModule } from './stories-routing.module';
 import { StoriesComponent } from './stories.component';
+import { NewModule } from './new/new.module';
+import { FriendsModule } from './friends/friends.module';
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { StoriesComponent } from './stories.component';
   ],
   imports: [
     CommonModule,
-    StoriesRoutingModule
+    StoriesRoutingModule,
+    NewModule,
+    FriendsModule
   ],
   exports: [
     StoriesComponent
