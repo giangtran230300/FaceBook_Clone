@@ -5,7 +5,7 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./screens/home/home.module').then((m) => m.HomeModule),
+      import('./app.module').then((m) => m.AppModule),
   },
   {
     path: 'header',

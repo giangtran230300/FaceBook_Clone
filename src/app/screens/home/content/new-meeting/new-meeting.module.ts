@@ -12,6 +12,9 @@ import { NewMeetingComponent } from './new-meeting.component';
   imports: [
     CommonModule,
     NewMeetingRoutingModule
+  ],
+  exports: [
+    NewMeetingComponent
   ]
 })
 export class NewMeetingModule { }

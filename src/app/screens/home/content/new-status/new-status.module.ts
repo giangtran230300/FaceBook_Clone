@@ -12,6 +12,9 @@ import { NewStatusComponent } from './new-status.component';
   imports: [
     CommonModule,
     NewStatusRoutingModule
+  ],
+  exports: [
+    NewStatusComponent
   ]
 })
 export class NewStatusModule { }
