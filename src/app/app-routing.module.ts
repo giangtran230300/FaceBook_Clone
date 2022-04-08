@@ -13,6 +13,11 @@ const routes: Routes = [
       import('./components/header/header.module').then((m) => m.HeaderModule),
   },
   {
+    path: 'chatbot',
+    loadChildren: () =>
+      import('./components/chatbot/chatbot.module').then((m) => m.ChatbotModule),
+  },
+  {
     path: 'home',
     loadChildren: () =>
       import('./screens/home/home.module').then((m) => m.HomeModule),

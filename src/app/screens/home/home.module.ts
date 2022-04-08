@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { SuggestionModule } from './suggestion/suggestion.module';
+import { AdvertisementModule } from './advertisement/advertisement.module';
+import { ContentModule } from './content/content.module';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { SuggestionModule } from './suggestion/suggestion.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SuggestionModule
+    SuggestionModule,
+    AdvertisementModule,
+    ContentModule
   ],
   exports: [
     HomeComponent

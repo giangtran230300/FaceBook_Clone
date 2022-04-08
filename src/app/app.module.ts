@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChatbotModule } from './components/chatbot/chatbot.module';
 import { HeaderModule } from './components/header/header.module';
 import { GameModule } from './screens/game/game.module';
 import { GroupModule } from './screens/group/group.module';
@@ -24,7 +25,8 @@ import { WatchModule } from './screens/watch/watch.module';
     GameModule,
     MarketModule,
     PersonalModule,
-    WatchModule
+    WatchModule,
+    ChatbotModule
   ],
   providers: [],
   bootstrap: [AppComponent]
