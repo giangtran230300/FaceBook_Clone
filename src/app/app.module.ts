@@ -12,6 +12,8 @@ import { MarketModule } from './screens/market/market.module';
 import { PersonalModule } from './screens/personal/personal.module';
 import { WatchModule } from './screens/watch/watch.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -26,7 +28,8 @@ import { WatchModule } from './screens/watch/watch.module';
     MarketModule,
     PersonalModule,
     WatchModule,
-    ChatbotModule
+    ChatbotModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
