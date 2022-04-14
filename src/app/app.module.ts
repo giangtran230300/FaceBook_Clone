@@ -28,10 +28,11 @@ import { WatchModule } from './screens/watch/watch.module';
     MarketModule,
     PersonalModule,
     WatchModule,
-    ChatbotModule,
-
+    ChatbotModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}

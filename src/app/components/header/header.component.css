@@ -1,5 +1,16 @@
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    padding: 1% 5%;
+    padding: 1% 0;
+}
+
+button {
+    border: none;
+}
+
+.left {
+    margin-right: 5rem;
+}
+.left button {
+    background-color: none;
 }
