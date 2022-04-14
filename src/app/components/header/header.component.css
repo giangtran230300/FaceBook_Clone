@@ -1,12 +1,6 @@
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    padding: 1% 0;
-    background-color: white;
-}
-
-button {
-    border: none;
 }
 
 .left {
@@ -15,15 +9,21 @@ button {
 }
 
 .left button {
-    margin-left: none;
-    color: darkblue;
-    background-color: none;
+    color: blue;
+    font-size: 1.75em;
+}
+
+.left i {
+    background-color: white;
+    border-radius: 50%;
 }
 
 .center .btn i {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .center .btn {
-    margin-left: 1%;
+    margin-right: 3rem;
+    color: darkgrey;
+    text-align: center;
 }
